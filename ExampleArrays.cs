@@ -24,7 +24,7 @@ namespace my_first_project.day1
             {
 
                 Console.WriteLine("a[" + i + "] = " + a[i]);
-
+ 
 
             }
             Console.WriteLine("-------------");
