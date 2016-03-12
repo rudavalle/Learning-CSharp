@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +8,8 @@ namespace my_first_project.day1
 {
     class ExampleOne
     {
+
+        //My First Program
         static void Main()
         {
             Console.WriteLine("Hello World!");
@@ -16,11 +18,18 @@ namespace my_first_project.day1
             int y = 3;
             int result = x + y;
 
-            Console.WriteLine("result = {0}", result);
+            Console.WriteLine("result = " +result);
 
+            Console.WriteLine("{0} + {1} = {2}", x, y, (x + y));
 
+            /*
+            *
+            *MultiLine
+            *Comment
+            *
+            */
 
-        } 
+        }
 
 
     }
