@@ -9,7 +9,7 @@ namespace my_first_project.day1
     class ExampleSwitchCase
     {
         static void Main()
-        {
+        { 
             string j = "Two";
 
             switch (j)
