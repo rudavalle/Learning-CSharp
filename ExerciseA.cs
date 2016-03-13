@@ -10,7 +10,11 @@ namespace my_first_project.day.exercises
     {
         static void Main()
         {
-            double salary = 45000;
+
+            Console.WriteLine("Please enter salary: ");
+            string input = Console.ReadLine();
+
+            double salary = Convert.ToDouble(input);
             double tax;
 
             if (salary <= 8350)
@@ -29,7 +33,7 @@ namespace my_first_project.day.exercises
 
             }
 
-            Console.WriteLine("Tax = {0}", tax);
+            Console.WriteLine("Tax = ", +tax);
 
 
 
