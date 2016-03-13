@@ -14,7 +14,7 @@ namespace my_first_project.day1.exercises
             string a = "Hello World";
 
 
-            Console.WriteLine(a.Substring(6));
+            Console.WriteLine(a.Substring(6).ToLower());
 
 
 
