@@ -33,7 +33,7 @@ namespace my_first_project.day.exercises
 
             }
 
-            Console.WriteLine("Tax = ", +tax);
+            Console.WriteLine("Tax = " +tax);
 
 
 
